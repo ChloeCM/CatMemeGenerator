@@ -44,6 +44,7 @@ function renderCat() {
         >
         `;
   memeModal.style.display = "flex";
+  saveToLocalStorage();
 }
 
 function getSingleCatObject() {
